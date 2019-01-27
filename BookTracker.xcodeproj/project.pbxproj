@@ -13,6 +13,8 @@
 		94672C3821E2AC5B0003D42A /* BookTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94672C3621E2AC5B0003D42A /* BookTracker.xcdatamodeld */; };
 		94672C3A21E2AC600003D42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94672C3921E2AC600003D42A /* Assets.xcassets */; };
 		94672C3D21E2AC600003D42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94672C3B21E2AC600003D42A /* LaunchScreen.storyboard */; };
+		94672C4521FD3A180003D42A /* Chrest Lifestyle LR-4713.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94672C4421FD3A180003D42A /* Chrest Lifestyle LR-4713.jpg */; };
+		94672C4921FD3BD30003D42A /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94672C4821FD3BD30003D42A /* BookViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		94672C3921E2AC600003D42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94672C3C21E2AC600003D42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94672C3E21E2AC600003D42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94672C4421FD3A180003D42A /* Chrest Lifestyle LR-4713.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chrest Lifestyle LR-4713.jpg"; sourceTree = "<group>"; };
+		94672C4821FD3BD30003D42A /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		94672C2E21E2AC5B0003D42A /* BookTracker */ = {
 			isa = PBXGroup;
 			children = (
+				94672C4421FD3A180003D42A /* Chrest Lifestyle LR-4713.jpg */,
 				94672C2F21E2AC5B0003D42A /* AppDelegate.swift */,
 				94672C3121E2AC5B0003D42A /* ViewController.swift */,
+				94672C4821FD3BD30003D42A /* BookViewController.swift */,
 				94672C3321E2AC5B0003D42A /* Main.storyboard */,
 				94672C3921E2AC600003D42A /* Assets.xcassets */,
 				94672C3B21E2AC600003D42A /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 				94672C3D21E2AC600003D42A /* LaunchScreen.storyboard in Resources */,
 				94672C3A21E2AC600003D42A /* Assets.xcassets in Resources */,
 				94672C3521E2AC5B0003D42A /* Main.storyboard in Resources */,
+				94672C4521FD3A180003D42A /* Chrest Lifestyle LR-4713.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94672C3821E2AC5B0003D42A /* BookTracker.xcdatamodeld in Sources */,
+				94672C4921FD3BD30003D42A /* BookViewController.swift in Sources */,
 				94672C3221E2AC5B0003D42A /* ViewController.swift in Sources */,
 				94672C3021E2AC5B0003D42A /* AppDelegate.swift in Sources */,
 			);
