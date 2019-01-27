@@ -10,7 +10,7 @@
 		94672C3021E2AC5B0003D42A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94672C2F21E2AC5B0003D42A /* AppDelegate.swift */; };
 		94672C3221E2AC5B0003D42A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94672C3121E2AC5B0003D42A /* ViewController.swift */; };
 		94672C3521E2AC5B0003D42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94672C3321E2AC5B0003D42A /* Main.storyboard */; };
-		94672C3821E2AC5B0003D42A /* QuiltTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94672C3621E2AC5B0003D42A /* QuiltTracker.xcdatamodeld */; };
+		94672C3821E2AC5B0003D42A /* BookTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94672C3621E2AC5B0003D42A /* BookTracker.xcdatamodeld */; };
 		94672C3A21E2AC600003D42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94672C3921E2AC600003D42A /* Assets.xcassets */; };
 		94672C3D21E2AC600003D42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94672C3B21E2AC600003D42A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -40,7 +40,7 @@
 		94672C2321E2AC5A0003D42A = {
 			isa = PBXGroup;
 			children = (
-				94672C2E21E2AC5B0003D42A /* QuiltTracker */,
+				94672C2E21E2AC5B0003D42A /* BookTracker */,
 				94672C2D21E2AC5B0003D42A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		94672C2E21E2AC5B0003D42A /* QuiltTracker */ = {
+		94672C2E21E2AC5B0003D42A /* BookTracker */ = {
 			isa = PBXGroup;
 			children = (
 				94672C2F21E2AC5B0003D42A /* AppDelegate.swift */,
@@ -62,9 +62,9 @@
 				94672C3921E2AC600003D42A /* Assets.xcassets */,
 				94672C3B21E2AC600003D42A /* LaunchScreen.storyboard */,
 				94672C3E21E2AC600003D42A /* Info.plist */,
-				94672C3621E2AC5B0003D42A /* QuiltTracker.xcdatamodeld */,
+				94672C3621E2AC5B0003D42A /* BookTracker.xcdatamodeld */,
 			);
-			path = QuiltTracker;
+			path = BookTracker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94672C3821E2AC5B0003D42A /* QuiltTracker.xcdatamodeld in Sources */,
+				94672C3821E2AC5B0003D42A /* BookTracker.xcdatamodeld in Sources */,
 				94672C3221E2AC5B0003D42A /* ViewController.swift in Sources */,
 				94672C3021E2AC5B0003D42A /* AppDelegate.swift in Sources */,
 			);
@@ -340,13 +340,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		94672C3621E2AC5B0003D42A /* QuiltTracker.xcdatamodeld */ = {
+		94672C3621E2AC5B0003D42A /* BookTracker.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				94672C3721E2AC5B0003D42A /* BookTracker.xcdatamodel */,
 			);
 			currentVersion = 94672C3721E2AC5B0003D42A /* BookTracker.xcdatamodel */;
-			path = QuiltTracker.xcdatamodeld;
+			path = BookTracker.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
